@@ -1,0 +1,56 @@
+[
+  {
+    "student_id": 21,
+    "first_name": "Guy",
+    "last_name": "Abramov",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade dropped significantly from overall average, indicating a serious decline.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "student_id": 38,
+    "first_name": "Or",
+    "last_name": "Turgeman",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade is substantially lower than overall average, suggesting a notable downward trend.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "student_id": 25,
+    "first_name": "Adi",
+    "last_name": "Levin",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade is much lower than overall average, indicating a clear decline.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "student_id": 23,
+    "first_name": "Idan",
+    "last_name": "Ohayon",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade dropped significantly compared to overall average, showing a serious decline.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "student_id": 13,
+    "first_name": "Omer",
+    "last_name": "Peretz",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade is notably lower than overall average, indicating a meaningful decline.",
+    "last_updated": "2025-11-01"
+  },
+  {
+    "student_id": 14,
+    "first_name": "Maya",
+    "last_name": "David",
+    "signal_type": "declining_performance",
+    "label": "worsening_trend",
+    "reason": "Recent average grade is considerably lower than overall average, suggesting a downward trend.",
+    "last_updated": "2025-11-01"
+  }
+]

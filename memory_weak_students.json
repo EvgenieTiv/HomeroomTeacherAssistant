@@ -1,0 +1,47 @@
+[
+  {
+    "student_id": 11,
+    "first_name": "Itay",
+    "last_name": "Mizrahi",
+    "label": "struggling_academically",
+    "reason": "Perfect submission rate but very low recent grades.",
+    "last_updated": "2025-11-01",
+    "signal_type": "low_performance"
+  },
+  {
+    "student_id": 10,
+    "first_name": "Noa",
+    "last_name": "Levy",
+    "label": "disengaged",
+    "reason": "Lower submission rate and zero recent grades.",
+    "last_updated": "2025-11-01",
+    "signal_type": "low_performance"
+  },
+  {
+    "student_id": 9,
+    "first_name": "Dan",
+    "last_name": "Cohen",
+    "label": "unclear",
+    "reason": "Good submission rate and improving grades, mixed pattern.",
+    "last_updated": "2025-11-01",
+    "signal_type": "low_performance"
+  },
+  {
+    "student_id": 25,
+    "first_name": "Adi",
+    "last_name": "Levin",
+    "label": "struggling_academically",
+    "reason": "Perfect submission rate but very low recent grades.",
+    "last_updated": "2025-11-01",
+    "signal_type": "low_performance"
+  },
+  {
+    "student_id": 26,
+    "first_name": "Amit",
+    "last_name": "Cohen",
+    "label": "struggling_academically",
+    "reason": "High submission rate with low but consistent grades.",
+    "last_updated": "2025-11-01",
+    "signal_type": "low_performance"
+  }
+]
