@@ -1,0 +1,5 @@
+student_id,FirstName,LastName,signal_count,signal_type,label,reason,last_updated
+25,Adi,Levin,2,declining_performance,worsening_trend,Very low recent average compared to already low overall average indicates a serious worsening.,2025-11-01
+25,Adi,Levin,2,low_performance,struggling_academically,Perfect submission rate but very low recent grades.,2025-11-01
+38,Or,Turgeman,2,declining_performance,worsening_trend,High overall average with a large recent drop suggests a meaningful downward trend.,2025-11-01
+38,Or,Turgeman,2,top_students,unclear,High overall grades but recent average dropped significantly.,2025-11-01
