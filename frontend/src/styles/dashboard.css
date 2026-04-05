@@ -99,3 +99,10 @@
   font-size: 13px;
   color: #374151;
 }
+
+.dashboard-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}

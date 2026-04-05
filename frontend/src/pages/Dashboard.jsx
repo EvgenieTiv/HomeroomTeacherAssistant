@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import RecommendationPanel from "../components/RecommendationPanel";
 import JournalTable from "../components/JournalTable";
-import { getSnapshotByDate, getJournalByDate } from "../services/api";
+import {
+  getJournalByDate,
+  getAiRecommendationsByDate,
+} from "../services/api";
 import "../styles/dashboard.css";
 import "../styles/journal.css";
 
@@ -9,10 +12,14 @@ function Dashboard() {
   const [selectedDate, setSelectedDate] = useState("2025-11-29");
   const [recommendations, setRecommendations] = useState(null);
   const [journalData, setJournalData] = useState(null);
+  const [useLlm, setUseLlm] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const handleLoadDashboard = async (dateToLoad = selectedDate) => {
+  const handleLoadDashboard = async (
+    dateToLoad = selectedDate,
+    llmMode = useLlm
+  ) => {
     if (!dateToLoad) {
       setError("Please select a valid date.");
       return;
@@ -22,19 +29,13 @@ function Dashboard() {
     setError("");
 
     try {
-      const [snapshot, journal] = await Promise.all([
-        getSnapshotByDate(dateToLoad),
+      const [journal, aiRecommendations] = await Promise.all([
         getJournalByDate(dateToLoad),
+        getAiRecommendationsByDate(dateToLoad, llmMode),
       ]);
 
-      setRecommendations({
-        lowPerformance: snapshot?.low_performance_students || [],
-        declining: snapshot?.declining_performance_students || [],
-        lowSubmission: snapshot?.low_submission_students || [],
-        topStudents: snapshot?.top_students || [],
-      });
-
       setJournalData(journal || null);
+      setRecommendations(aiRecommendations || null);
     } catch (err) {
       setError("Failed to load dashboard data.");
       console.error(err);
@@ -44,7 +45,7 @@ function Dashboard() {
   };
 
   useEffect(() => {
-    handleLoadDashboard("2025-11-29");
+    handleLoadDashboard("2025-11-29", false);
   }, []);
 
   return (
@@ -62,6 +63,15 @@ function Dashboard() {
           max="2026-06-30"
           onChange={(e) => setSelectedDate(e.target.value)}
         />
+
+        <label className="dashboard-toggle">
+          <input
+            type="checkbox"
+            checked={useLlm}
+            onChange={(e) => setUseLlm(e.target.checked)}
+          />
+          Use LLM recommendations
+        </label>
 
         <button onClick={() => handleLoadDashboard()} disabled={loading}>
           {loading ? "Loading..." : "Load Dashboard"}

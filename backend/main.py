@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from snapshot import build_snapshot, build_journal
+from ai_recommendations import build_ai_recommendations
 import pandas as pd
 
 
@@ -56,3 +57,30 @@ def get_snapshot(date: str):
 def get_journal(date: str):
     validate_date(date)
     return build_journal(date)
+
+
+@app.get("/recommendations_ai")
+def get_recommendations_ai(date: str, use_llm: bool = False):
+    validate_date(date)
+
+    recommendations = build_ai_recommendations(
+        snapshot_date_str=date,
+        use_llm=use_llm,
+    )
+
+    safe_recommendations = []
+    for rec in recommendations:
+        clean_rec = {}
+        for key, value in rec.items():
+            if pd.isna(value) if not isinstance(value, (list, dict, str, bool, type(None))) else False:
+                clean_rec[key] = None
+            else:
+                clean_rec[key] = value
+        safe_recommendations.append(clean_rec)
+
+    return {
+        "snapshot_date": date,
+        "use_llm": use_llm,
+        "count": len(safe_recommendations),
+        "recommendations": safe_recommendations,
+    }

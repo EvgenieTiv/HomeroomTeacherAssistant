@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/dashboard.css";
 
-const MAX_VISIBLE_STUDENTS = 5;
+const MAX_VISIBLE_RECOMMENDATIONS = 8;
 
-function fullName(student) {
-  return `${student?.FirstName ?? ""} ${student?.LastName ?? ""}`.trim();
+function fullName(item) {
+  return `${item?.first_name ?? ""} ${item?.last_name ?? ""}`.trim();
 }
 
 function formatRate(value) {
@@ -12,97 +12,138 @@ function formatRate(value) {
   return `${Math.round(value * 100)}%`;
 }
 
-function getSubtitle(student, type) {
-  if (type === "lowPerformance") {
-    return `Average grade: ${student?.average_grade ?? "-"}`;
-  }
+function prettyAction(action) {
+  if (!action) return "-";
 
-  if (type === "declining") {
-    return `Grade drop: ${student?.grade_drop ?? "-"}`;
-  }
+  const mapping = {
+    contact_student_and_schedule_follow_up:
+      "Contact student and schedule follow-up",
+    check_in_with_student: "Check in with student",
+    investigate_recent_drop: "Investigate recent performance drop",
+    send_reminder_and_monitor_next_assignment:
+      "Send reminder and monitor next assignment",
+    monitor_next_assignment: "Monitor next assignment",
+    praise_student: "Praise student",
+  };
 
-  if (type === "lowSubmission") {
-    return `Submission rate: ${formatRate(student?.submission_rate)}`;
-  }
-
-  if (type === "topStudents") {
-    return `Average grade: ${student?.average_grade ?? "-"}`;
-  }
-
-  return "";
+  return mapping[action] || action;
 }
 
-function renderStudents(students, type) {
-  if (!students || students.length === 0) {
-    return <p className="recommendation-empty">No students</p>;
+function priorityClass(priority) {
+  if (priority === "high") return "recommendation-priority high";
+  if (priority === "medium") return "recommendation-priority medium";
+  return "recommendation-priority low";
+}
+
+function renderMetrics(item) {
+  const bits = [];
+
+  if (item?.average_grade !== null && item?.average_grade !== undefined) {
+    bits.push(`Avg grade: ${item.average_grade}`);
   }
 
-  const visibleStudents = students.slice(0, MAX_VISIBLE_STUDENTS);
-  const remainingCount = students.length - visibleStudents.length;
+  if (
+    item?.submission_rate !== null &&
+    item?.submission_rate !== undefined
+  ) {
+    bits.push(`Submission: ${formatRate(item.submission_rate)}`);
+  }
 
-  return (
-    <div className="recommendation-student-list">
-      {visibleStudents.map((student, index) => (
-        <div
-          key={`${student?.student_id ?? "student"}-${index}`}
-          className="recommendation-student-card"
-        >
-          <div className="recommendation-student-name">
-            {fullName(student) || "Unnamed student"}
-          </div>
+  if (item?.grade_drop !== null && item?.grade_drop !== undefined) {
+    bits.push(`Drop: ${item.grade_drop}`);
+  }
 
-          <div className="recommendation-student-email">
-            {student?.Email ?? "-"}
-          </div>
+  if (
+    item?.days_since_last_submission !== null &&
+    item?.days_since_last_submission !== undefined
+  ) {
+    bits.push(`Last activity: ${item.days_since_last_submission}d ago`);
+  }
 
-          <div className="recommendation-student-subtitle">
-            {getSubtitle(student, type)}
-          </div>
-        </div>
-      ))}
-
-      {remainingCount > 0 && (
-        <div className="recommendation-more">
-          + {remainingCount} more
-        </div>
-      )}
-    </div>
-  );
+  return bits.join(" • ");
 }
 
 function RecommendationPanel({ recommendations }) {
   if (!recommendations) {
     return (
       <div className="recommendation-panel">
-        <h2>Recommendations</h2>
+        <h2>AI Recommendations</h2>
         <p>No recommendations loaded yet.</p>
       </div>
     );
   }
 
+  const items = recommendations?.recommendations || [];
+  const count = recommendations?.count ?? items.length ?? 0;
+  const visibleItems = items.slice(0, MAX_VISIBLE_RECOMMENDATIONS);
+  const remainingCount = count - visibleItems.length;
+
   return (
     <div className="recommendation-panel">
-      <h2>Recommendations</h2>
+      <h2>AI Recommendations</h2>
 
-      <div className="recommendation-block">
-        <h3>Low Performance</h3>
-        {renderStudents(recommendations.lowPerformance, "lowPerformance")}
+      <div className="recommendation-summary">
+        <div>
+          <span className="recommendation-summary-label">Snapshot date:</span>{" "}
+          {recommendations?.snapshot_date ?? "-"}
+        </div>
+        <div>
+          <span className="recommendation-summary-label">Mode:</span>{" "}
+          {recommendations?.use_llm ? "LLM" : "Rule-based AI"}
+        </div>
+        <div>
+          <span className="recommendation-summary-label">Cases:</span> {count}
+        </div>
       </div>
 
-      <div className="recommendation-block">
-        <h3>Declining Performance</h3>
-        {renderStudents(recommendations.declining, "declining")}
-      </div>
+      {visibleItems.length === 0 ? (
+        <p className="recommendation-empty">No students flagged</p>
+      ) : (
+        <div className="recommendation-student-list">
+          {visibleItems.map((item, index) => (
+            <div
+              key={`${item?.student_id ?? "student"}-${index}`}
+              className="recommendation-student-card"
+            >
+              <div className="recommendation-card-top">
+                <div className="recommendation-student-name">
+                  {fullName(item) || "Unnamed student"}
+                </div>
 
-      <div className="recommendation-block">
-        <h3>Low Submission</h3>
-        {renderStudents(recommendations.lowSubmission, "lowSubmission")}
-      </div>
+                <div className={priorityClass(item?.priority)}>
+                  {item?.priority ?? "low"}
+                </div>
+              </div>
 
-      <div className="recommendation-block">
-        <h3>Top Students</h3>
-        {renderStudents(recommendations.topStudents, "topStudents")}
-      </div>
+              <div className="recommendation-student-email">
+                {item?.email ?? "-"}
+              </div>
+
+              <div className="recommendation-signal">
+                Signal: {item?.primary_signal ?? item?.label ?? "-"}
+              </div>
+
+              <div className="recommendation-action">
+                Action: {prettyAction(item?.recommended_action)}
+              </div>
+
+              <div className="recommendation-reason">
+                {item?.short_reason ?? "No reason provided."}
+              </div>
+
+              <div className="recommendation-metrics">
+                {renderMetrics(item)}
+              </div>
+            </div>
+          ))}
+
+          {remainingCount > 0 && (
+            <div className="recommendation-more">
+              + {remainingCount} more
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
