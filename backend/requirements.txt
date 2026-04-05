@@ -3,6 +3,4 @@ uvicorn
 gunicorn
 dotenv
 snapshot
-ai_recommendations
-import
-
+pandas
