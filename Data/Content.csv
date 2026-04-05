@@ -1,0 +1,128 @@
+Id,ContentType,FileName,Name,Summary,FullText,UserId,CourseId,SolutionUpdateAllowed,UpdateCreatedDate,CreatedDate,LastAllowedDate,ModifiedDate
+1,2,file_001,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2025-09-01 00:00:00+00,2025-09-01 00:00:00+00,2025-09-01 00:00:00+00
+2,2,file_002,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2025-09-03 00:00:00+00,2025-09-03 00:00:00+00,2025-09-03 00:00:00+00
+3,2,file_003,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2025-09-08 00:00:00+00,2025-09-08 00:00:00+00,2025-09-08 00:00:00+00
+4,2,file_004,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2025-09-10 00:00:00+00,2025-09-10 00:00:00+00,2025-09-10 00:00:00+00
+5,2,file_005,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2025-09-15 00:00:00+00,2025-09-15 00:00:00+00,2025-09-15 00:00:00+00
+6,2,file_006,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2025-09-17 00:00:00+00,2025-09-17 00:00:00+00,2025-09-17 00:00:00+00
+7,2,file_007,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2025-09-22 00:00:00+00,2025-09-22 00:00:00+00,2025-09-22 00:00:00+00
+8,2,file_008,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2025-09-24 00:00:00+00,2025-09-24 00:00:00+00,2025-09-24 00:00:00+00
+9,2,file_009,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2025-09-29 00:00:00+00,2025-09-29 00:00:00+00,2025-09-29 00:00:00+00
+10,2,file_010,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2025-10-01 00:00:00+00,2025-10-01 00:00:00+00,2025-10-01 00:00:00+00
+11,2,file_011,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2025-10-06 00:00:00+00,2025-10-06 00:00:00+00,2025-10-06 00:00:00+00
+12,2,file_012,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2025-10-08 00:00:00+00,2025-10-08 00:00:00+00,2025-10-08 00:00:00+00
+13,2,file_013,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2025-10-13 00:00:00+00,2025-10-13 00:00:00+00,2025-10-13 00:00:00+00
+14,2,file_014,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2025-10-15 00:00:00+00,2025-10-15 00:00:00+00,2025-10-15 00:00:00+00
+15,2,file_015,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2025-10-20 00:00:00+00,2025-10-20 00:00:00+00,2025-10-20 00:00:00+00
+16,2,file_016,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2025-10-22 00:00:00+00,2025-10-22 00:00:00+00,2025-10-22 00:00:00+00
+17,2,file_017,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2025-10-27 00:00:00+00,2025-10-27 00:00:00+00,2025-10-27 00:00:00+00
+18,2,file_018,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2025-10-29 00:00:00+00,2025-10-29 00:00:00+00,2025-10-29 00:00:00+00
+19,2,file_019,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2025-11-03 00:00:00+00,2025-11-03 00:00:00+00,2025-11-03 00:00:00+00
+20,2,file_020,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2025-11-05 00:00:00+00,2025-11-05 00:00:00+00,2025-11-05 00:00:00+00
+21,2,file_021,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2025-11-10 00:00:00+00,2025-11-10 00:00:00+00,2025-11-10 00:00:00+00
+22,2,file_022,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2025-11-12 00:00:00+00,2025-11-12 00:00:00+00,2025-11-12 00:00:00+00
+23,2,file_023,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2025-11-17 00:00:00+00,2025-11-17 00:00:00+00,2025-11-17 00:00:00+00
+24,2,file_024,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2025-11-19 00:00:00+00,2025-11-19 00:00:00+00,2025-11-19 00:00:00+00
+25,2,file_025,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2025-11-24 00:00:00+00,2025-11-24 00:00:00+00,2025-11-24 00:00:00+00
+26,2,file_026,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2025-11-26 00:00:00+00,2025-11-26 00:00:00+00,2025-11-26 00:00:00+00
+27,2,file_027,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2025-12-01 00:00:00+00,2025-12-01 00:00:00+00,2025-12-01 00:00:00+00
+28,2,file_028,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2025-12-03 00:00:00+00,2025-12-03 00:00:00+00,2025-12-03 00:00:00+00
+29,2,file_029,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2025-12-08 00:00:00+00,2025-12-08 00:00:00+00,2025-12-08 00:00:00+00
+30,2,file_030,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2025-12-10 00:00:00+00,2025-12-10 00:00:00+00,2025-12-10 00:00:00+00
+31,2,file_031,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2025-12-15 00:00:00+00,2025-12-15 00:00:00+00,2025-12-15 00:00:00+00
+32,2,file_032,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2025-12-17 00:00:00+00,2025-12-17 00:00:00+00,2025-12-17 00:00:00+00
+33,2,file_033,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2025-12-22 00:00:00+00,2025-12-22 00:00:00+00,2025-12-22 00:00:00+00
+34,2,file_034,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2025-12-24 00:00:00+00,2025-12-24 00:00:00+00,2025-12-24 00:00:00+00
+35,2,file_035,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2025-12-29 00:00:00+00,2025-12-29 00:00:00+00,2025-12-29 00:00:00+00
+36,2,file_036,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2025-12-31 00:00:00+00,2025-12-31 00:00:00+00,2025-12-31 00:00:00+00
+37,2,file_037,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2026-01-05 00:00:00+00,2026-01-05 00:00:00+00,2026-01-05 00:00:00+00
+38,2,file_038,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2026-01-07 00:00:00+00,2026-01-07 00:00:00+00,2026-01-07 00:00:00+00
+39,2,file_039,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2026-01-12 00:00:00+00,2026-01-12 00:00:00+00,2026-01-12 00:00:00+00
+40,2,file_040,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2026-01-14 00:00:00+00,2026-01-14 00:00:00+00,2026-01-14 00:00:00+00
+41,2,file_041,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2026-01-19 00:00:00+00,2026-01-19 00:00:00+00,2026-01-19 00:00:00+00
+42,2,file_042,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2026-01-21 00:00:00+00,2026-01-21 00:00:00+00,2026-01-21 00:00:00+00
+43,2,file_043,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2026-01-26 00:00:00+00,2026-01-26 00:00:00+00,2026-01-26 00:00:00+00
+44,2,file_044,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2026-01-28 00:00:00+00,2026-01-28 00:00:00+00,2026-01-28 00:00:00+00
+45,2,file_045,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2026-02-02 00:00:00+00,2026-02-02 00:00:00+00,2026-02-02 00:00:00+00
+46,2,file_046,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2026-02-04 00:00:00+00,2026-02-04 00:00:00+00,2026-02-04 00:00:00+00
+47,2,file_047,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2026-02-09 00:00:00+00,2026-02-09 00:00:00+00,2026-02-09 00:00:00+00
+48,2,file_048,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2026-02-11 00:00:00+00,2026-02-11 00:00:00+00,2026-02-11 00:00:00+00
+49,2,file_049,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2026-02-16 00:00:00+00,2026-02-16 00:00:00+00,2026-02-16 00:00:00+00
+50,2,file_050,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2026-02-18 00:00:00+00,2026-02-18 00:00:00+00,2026-02-18 00:00:00+00
+51,2,file_051,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2026-02-23 00:00:00+00,2026-02-23 00:00:00+00,2026-02-23 00:00:00+00
+52,2,file_052,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2026-02-25 00:00:00+00,2026-02-25 00:00:00+00,2026-02-25 00:00:00+00
+53,2,file_053,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2026-03-02 00:00:00+00,2026-03-02 00:00:00+00,2026-03-02 00:00:00+00
+54,2,file_054,Lesson - Trigonometric Identities,Math lesson,Lesson - Trigonometric Identities,39,2,false,false,2026-03-04 00:00:00+00,2026-03-04 00:00:00+00,2026-03-04 00:00:00+00
+55,2,file_055,Lesson - Limits and Continuity,Math lesson,Lesson - Limits and Continuity,39,2,false,false,2026-03-09 00:00:00+00,2026-03-09 00:00:00+00,2026-03-09 00:00:00+00
+56,2,file_056,Lesson - Analytic Geometry,Math lesson,Lesson - Analytic Geometry,39,2,false,false,2026-03-11 00:00:00+00,2026-03-11 00:00:00+00,2026-03-11 00:00:00+00
+57,2,file_057,Lesson - Quadratic Equations,Math lesson,Lesson - Quadratic Equations,39,2,false,false,2026-03-16 00:00:00+00,2026-03-16 00:00:00+00,2026-03-16 00:00:00+00
+58,2,file_058,Lesson - Functions and Graphs,Math lesson,Lesson - Functions and Graphs,39,2,false,false,2026-03-18 00:00:00+00,2026-03-18 00:00:00+00,2026-03-18 00:00:00+00
+59,2,file_059,Lesson - Derivatives Basics,Math lesson,Lesson - Derivatives Basics,39,2,false,false,2026-03-23 00:00:00+00,2026-03-23 00:00:00+00,2026-03-23 00:00:00+00
+60,2,file_060,Lesson - Derivative Applications,Math lesson,Lesson - Derivative Applications,39,2,false,false,2026-03-25 00:00:00+00,2026-03-25 00:00:00+00,2026-03-25 00:00:00+00
+61,2,file_061,Lesson - Integrals Basics,Math lesson,Lesson - Integrals Basics,39,2,false,false,2026-03-30 00:00:00+00,2026-03-30 00:00:00+00,2026-03-30 00:00:00+00
+62,0,file_101,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2025-09-01 00:00:00+00,2025-09-08 00:00:00+00,2025-09-01 00:00:00+00
+63,0,file_102,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2025-09-03 00:00:00+00,2025-09-10 00:00:00+00,2025-09-03 00:00:00+00
+64,0,file_103,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2025-09-08 00:00:00+00,2025-09-15 00:00:00+00,2025-09-08 00:00:00+00
+65,0,file_104,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2025-09-10 00:00:00+00,2025-09-17 00:00:00+00,2025-09-10 00:00:00+00
+66,0,file_105,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2025-09-15 00:00:00+00,2025-09-22 00:00:00+00,2025-09-15 00:00:00+00
+67,0,file_106,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2025-09-17 00:00:00+00,2025-09-24 00:00:00+00,2025-09-17 00:00:00+00
+68,0,file_107,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2025-09-22 00:00:00+00,2025-09-29 00:00:00+00,2025-09-22 00:00:00+00
+69,0,file_108,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2025-09-24 00:00:00+00,2025-10-01 00:00:00+00,2025-09-24 00:00:00+00
+70,0,file_109,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2025-09-29 00:00:00+00,2025-10-06 00:00:00+00,2025-09-29 00:00:00+00
+71,0,file_110,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2025-10-01 00:00:00+00,2025-10-08 00:00:00+00,2025-10-01 00:00:00+00
+72,0,file_111,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2025-10-06 00:00:00+00,2025-10-13 00:00:00+00,2025-10-06 00:00:00+00
+73,0,file_112,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2025-10-08 00:00:00+00,2025-10-15 00:00:00+00,2025-10-08 00:00:00+00
+74,0,file_113,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2025-10-13 00:00:00+00,2025-10-20 00:00:00+00,2025-10-13 00:00:00+00
+75,0,file_114,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2025-10-15 00:00:00+00,2025-10-22 00:00:00+00,2025-10-15 00:00:00+00
+76,0,file_115,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2025-10-20 00:00:00+00,2025-10-27 00:00:00+00,2025-10-20 00:00:00+00
+77,0,file_116,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2025-10-22 00:00:00+00,2025-10-29 00:00:00+00,2025-10-22 00:00:00+00
+78,0,file_117,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2025-10-27 00:00:00+00,2025-11-03 00:00:00+00,2025-10-27 00:00:00+00
+79,0,file_118,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2025-10-29 00:00:00+00,2025-11-05 00:00:00+00,2025-10-29 00:00:00+00
+80,0,file_119,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2025-11-03 00:00:00+00,2025-11-10 00:00:00+00,2025-11-03 00:00:00+00
+81,0,file_120,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2025-11-05 00:00:00+00,2025-11-12 00:00:00+00,2025-11-05 00:00:00+00
+82,0,file_121,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2025-11-10 00:00:00+00,2025-11-17 00:00:00+00,2025-11-10 00:00:00+00
+83,0,file_122,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2025-11-12 00:00:00+00,2025-11-19 00:00:00+00,2025-11-12 00:00:00+00
+84,0,file_123,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2025-11-17 00:00:00+00,2025-11-24 00:00:00+00,2025-11-17 00:00:00+00
+85,0,file_124,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2025-11-19 00:00:00+00,2025-11-26 00:00:00+00,2025-11-19 00:00:00+00
+86,0,file_125,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2025-11-24 00:00:00+00,2025-12-01 00:00:00+00,2025-11-24 00:00:00+00
+87,0,file_126,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2025-11-26 00:00:00+00,2025-12-03 00:00:00+00,2025-11-26 00:00:00+00
+88,0,file_127,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2025-12-01 00:00:00+00,2025-12-08 00:00:00+00,2025-12-01 00:00:00+00
+89,0,file_128,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2025-12-03 00:00:00+00,2025-12-10 00:00:00+00,2025-12-03 00:00:00+00
+90,0,file_129,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2025-12-08 00:00:00+00,2025-12-15 00:00:00+00,2025-12-08 00:00:00+00
+91,0,file_130,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2025-12-10 00:00:00+00,2025-12-17 00:00:00+00,2025-12-10 00:00:00+00
+92,0,file_131,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2025-12-15 00:00:00+00,2025-12-22 00:00:00+00,2025-12-15 00:00:00+00
+93,0,file_132,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2025-12-17 00:00:00+00,2025-12-24 00:00:00+00,2025-12-17 00:00:00+00
+94,0,file_133,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2025-12-22 00:00:00+00,2025-12-29 00:00:00+00,2025-12-22 00:00:00+00
+95,0,file_134,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2025-12-24 00:00:00+00,2025-12-31 00:00:00+00,2025-12-24 00:00:00+00
+96,0,file_135,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2025-12-29 00:00:00+00,2026-01-05 00:00:00+00,2025-12-29 00:00:00+00
+97,0,file_136,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2025-12-31 00:00:00+00,2026-01-07 00:00:00+00,2025-12-31 00:00:00+00
+98,0,file_137,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2026-01-05 00:00:00+00,2026-01-12 00:00:00+00,2026-01-05 00:00:00+00
+99,0,file_138,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2026-01-07 00:00:00+00,2026-01-14 00:00:00+00,2026-01-07 00:00:00+00
+100,0,file_139,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2026-01-12 00:00:00+00,2026-01-19 00:00:00+00,2026-01-12 00:00:00+00
+101,0,file_140,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2026-01-14 00:00:00+00,2026-01-21 00:00:00+00,2026-01-14 00:00:00+00
+102,0,file_141,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2026-01-19 00:00:00+00,2026-01-26 00:00:00+00,2026-01-19 00:00:00+00
+103,0,file_142,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2026-01-21 00:00:00+00,2026-01-28 00:00:00+00,2026-01-21 00:00:00+00
+104,0,file_143,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2026-01-26 00:00:00+00,2026-02-02 00:00:00+00,2026-01-26 00:00:00+00
+105,0,file_144,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2026-01-28 00:00:00+00,2026-02-04 00:00:00+00,2026-01-28 00:00:00+00
+106,0,file_145,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2026-02-02 00:00:00+00,2026-02-09 00:00:00+00,2026-02-02 00:00:00+00
+107,0,file_146,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2026-02-04 00:00:00+00,2026-02-11 00:00:00+00,2026-02-04 00:00:00+00
+108,0,file_147,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2026-02-09 00:00:00+00,2026-02-16 00:00:00+00,2026-02-09 00:00:00+00
+109,0,file_148,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2026-02-11 00:00:00+00,2026-02-18 00:00:00+00,2026-02-11 00:00:00+00
+110,0,file_149,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2026-02-16 00:00:00+00,2026-02-23 00:00:00+00,2026-02-16 00:00:00+00
+111,0,file_150,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2026-02-18 00:00:00+00,2026-02-25 00:00:00+00,2026-02-18 00:00:00+00
+112,0,file_151,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2026-02-23 00:00:00+00,2026-03-02 00:00:00+00,2026-02-23 00:00:00+00
+113,0,file_152,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2026-02-25 00:00:00+00,2026-03-04 00:00:00+00,2026-02-25 00:00:00+00
+114,0,file_153,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2026-03-02 00:00:00+00,2026-03-09 00:00:00+00,2026-03-02 00:00:00+00
+115,0,file_154,Homework - Trigonometry,Math homework,Homework - Trigonometry,39,2,true,false,2026-03-04 00:00:00+00,2026-03-11 00:00:00+00,2026-03-04 00:00:00+00
+116,0,file_155,Homework - Limits,Math homework,Homework - Limits,39,2,true,false,2026-03-09 00:00:00+00,2026-03-16 00:00:00+00,2026-03-09 00:00:00+00
+117,0,file_156,Homework - Geometry,Math homework,Homework - Geometry,39,2,true,false,2026-03-11 00:00:00+00,2026-03-18 00:00:00+00,2026-03-11 00:00:00+00
+118,0,file_157,Homework - Quadratic Equations,Math homework,Homework - Quadratic Equations,39,2,true,false,2026-03-16 00:00:00+00,2026-03-23 00:00:00+00,2026-03-16 00:00:00+00
+119,0,file_158,Homework - Functions and Graphs,Math homework,Homework - Functions and Graphs,39,2,true,false,2026-03-18 00:00:00+00,2026-03-25 00:00:00+00,2026-03-18 00:00:00+00
+120,0,file_159,Homework - Derivatives,Math homework,Homework - Derivatives,39,2,true,false,2026-03-23 00:00:00+00,2026-03-30 00:00:00+00,2026-03-23 00:00:00+00
+121,0,file_160,Homework - Derivative Applications,Math homework,Homework - Derivative Applications,39,2,true,false,2026-03-25 00:00:00+00,2026-04-01 00:00:00+00,2026-03-25 00:00:00+00
+122,0,file_161,Homework - Integrals,Math homework,Homework - Integrals,39,2,true,false,2026-03-30 00:00:00+00,2026-04-06 00:00:00+00,2026-03-30 00:00:00+00
+123,1,file_201,Material - Derivatives formulas,Reference,Material - Derivatives formulas,39,2,false,false,2025-09-15 00:00:00+00,2025-09-15 00:00:00+00,2025-09-15 00:00:00+00
+124,1,file_202,Material - Trigonometry summary,Reference,Material - Trigonometry summary,39,2,false,false,2025-10-27 00:00:00+00,2025-10-27 00:00:00+00,2025-10-27 00:00:00+00
+125,1,file_203,Material - Integrals cheat sheet,Reference,Material - Integrals cheat sheet,39,2,false,false,2025-12-10 00:00:00+00,2025-12-10 00:00:00+00,2025-12-10 00:00:00+00
+126,1,file_204,Material - Limits guide,Reference,Material - Limits guide,39,2,false,false,2026-01-19 00:00:00+00,2026-01-19 00:00:00+00,2026-01-19 00:00:00+00
+127,1,file_205,Material - Geometry summary,Reference,Material - Geometry summary,39,2,false,false,2026-03-04 00:00:00+00,2026-03-04 00:00:00+00,2026-03-04 00:00:00+00

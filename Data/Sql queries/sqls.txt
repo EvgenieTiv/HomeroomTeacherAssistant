@@ -1,0 +1,43 @@
+INSERT INTO "Users"
+("Email","Password","FirstName","LastName","Country","City","UserTypeId")
+VALUES
+('dan_cohen@pseudomail.com', 'fakePassword1!', 'Dan', 'Cohen', 'Israel', 'Tel Aviv', 0),
+
+SELECT * FROM "Users"
+
+tiv_nat_evg@yahoo.com id = 6
+
+INSERT INTO "Courses" 
+("Name", "SchoolId", "TopicId", "SchoolClass", "SchoolClassLetter", "HomeroomTeacherId", "IsClass", "CreatedDate", "ModifiedDate")
+VALUES
+('Mathematics 5 bagrut points', 1, 1, 12, '', 6, FALSE, '2025-09-01', '2025-09-01'),
+('English 4 bagrut points', 1, 2, 12, '', 6, FALSE, '2025-09-01', '2025-09-01'),
+('Lashon', 1, 3, 12, '', 6, FALSE, '2025-09-01', '2025-09-01');
+
+Mathematics 2
+English 3
+Lashon 4
+
+Math teacher 39
+english teacher 40
+hebrew teacher 41
+
+SELECT * FROM "SchoolUsers"
+
+
+
+INSERT INTO "SchoolUsers"
+("UserId", "SchoolId", "CreatedDate", "ModifiedDate")
+values
+(7, 1, '2025-09-01', '2025-09-01'),
+(9, 1, '2025-09-01', '2025-09-01')
+
+Id, ContentType, FileName, Name, Summary, FullText, UserId, CourseId, SolutionUpdateAllowed, UpdateCreatedDate, CreatedDate, LastAllowedDate, ModifiedDate
+Name, FullText, FileName, ContentId, UserId, CreatedDate, Grade, IsClosed, ModifiedDate
+
+    public enum ContentType
+    {
+        Task = 0,
+        Material = 1,
+        Lesson = 2
+    }
