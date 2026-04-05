@@ -1,0 +1,101 @@
+.dashboard-container {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #f7f8fa;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+}
+
+.dashboard-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.dashboard-controls input,
+.dashboard-controls button {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.dashboard-controls button {
+  cursor: pointer;
+}
+
+.dashboard-main-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 20px;
+  align-items: start;
+}
+
+.dashboard-journal-area {
+  min-width: 0;
+}
+
+.dashboard-side-area {
+  position: sticky;
+  top: 24px;
+}
+
+.recommendation-panel {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.recommendation-block {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.recommendation-block:last-child {
+  border-bottom: none;
+}
+
+.error-text {
+  color: #b00020;
+  margin-bottom: 16px;
+}
+
+.recommendation-empty {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0;
+}
+
+.recommendation-student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommendation-student-card {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.recommendation-student-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.recommendation-student-email {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+  word-break: break-word;
+}
+
+.recommendation-student-subtitle {
+  font-size: 13px;
+  color: #374151;
+}

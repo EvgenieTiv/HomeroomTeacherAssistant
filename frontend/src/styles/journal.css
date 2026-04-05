@@ -1,0 +1,126 @@
+.journal-wrapper {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.journal-scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 75vh;
+}
+
+.journal-table {
+  border-collapse: collapse;
+  min-width: 1200px;
+  width: max-content;
+}
+
+.journal-table th,
+.journal-table td {
+  border: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+.student-col {
+  min-width: 220px;
+  max-width: 220px;
+  background: #ffffff;
+}
+
+.assignment-col {
+  min-width: 150px;
+  max-width: 150px;
+  padding: 10px;
+  background: #f3f4f6;
+  text-align: left;
+}
+
+.assignment-header-date {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.assignment-header-title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.journal-table thead .sticky-col {
+  z-index: 3;
+}
+
+.student-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.student-email {
+  font-size: 12px;
+  color: #6b7280;
+  word-break: break-word;
+}
+
+.journal-cell {
+  min-width: 150px;
+  max-width: 150px;
+  padding: 10px;
+}
+
+.journal-cell.normal {
+  background: #ffffff;
+}
+
+.journal-cell.low-grade {
+  background: #fde2e2;
+}
+
+.journal-cell.missing {
+  background: #f1f5f9;
+}
+
+.journal-cell.late {
+  background: #fff4d6;
+}
+
+.cell-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.cell-grade {
+  font-weight: 600;
+}
+
+.cell-date {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.cell-status {
+  font-weight: 600;
+  color: #475569;
+}
+
+.cell-late-flag {
+  display: inline-block;
+  width: fit-content;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f59e0b;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+}

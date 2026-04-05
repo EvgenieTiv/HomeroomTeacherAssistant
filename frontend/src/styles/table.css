@@ -1,0 +1,24 @@
+.table-wrapper {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.snapshot-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.snapshot-table th,
+.snapshot-table td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.snapshot-table th {
+  background: #f3f4f6;
+}
